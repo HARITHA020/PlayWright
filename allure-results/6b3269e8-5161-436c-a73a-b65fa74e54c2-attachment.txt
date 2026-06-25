@@ -1,0 +1,1 @@
+the logged user is: getByText(/Logged in as/i)
