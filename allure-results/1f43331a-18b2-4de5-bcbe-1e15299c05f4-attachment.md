@@ -1,0 +1,222 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: iframe.test.ts >> Frames2
+- Location: tests\iframe.test.ts:15:1
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation "main navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "LetCode Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "LetCode" [ref=e7]
+        - generic [ref=e8]:
+          - link "Work-Space" [ref=e9] [cursor=pointer]:
+            - /url: /test
+          - generic [ref=e10]:
+            - button "Products" [ref=e11] [cursor=pointer]:
+              - text: Products
+              - img [ref=e12]
+            - generic:
+              - link "Ortoni Report":
+                - /url: /product/ortoni-report
+              - link "LetXPath":
+                - /url: /product/letxpath
+              - link "Playwright Runner":
+                - /url: /product/playwright-runner
+          - generic [ref=e15]:
+            - button "Grooming" [ref=e16] [cursor=pointer]:
+              - text: Grooming
+              - img [ref=e17]
+            - generic:
+              - link "Test Practice":
+                - /url: /test-practice
+              - link "Interview Q & A":
+                - /url: /interview
+              - link "Playwright Quiz":
+                - /url: /pw-quiz
+          - link "Courses" [ref=e20] [cursor=pointer]:
+            - /url: /courses
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: /contact
+        - button "Switch to dark mode" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+    - main [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - navigation "Breadcrumb" [ref=e31]:
+            - link "Workspace" [ref=e32] [cursor=pointer]:
+              - /url: /test
+              - img [ref=e33]
+              - generic [ref=e38]: Workspace
+            - img [ref=e39]
+            - generic [ref=e41]: Frame
+          - heading "Frame" [level=1] [ref=e44]
+        - generic [ref=e46]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: Let's go for a frame practice 😉
+            - iframe [active] [ref=e51]:
+              - generic [ref=f1e1]:
+                - generic [ref=f1e4]:
+                  - heading "Enter Details" [level=1] [ref=f1e5]
+                  - generic [ref=f1e6]:
+                    - generic [ref=f1e7]:
+                      - generic [ref=f1e8]: First Name
+                      - textbox "Enter name" [ref=f1e9]: haritha
+                    - generic [ref=f1e10]:
+                      - generic [ref=f1e11]: Last Name
+                      - textbox "Enter email" [ref=f1e12]: SR
+                  - paragraph [ref=f1e14]: You have entered haritha SR
+                  - iframe [active] [ref=f1e16]:
+                    - generic [ref=f2e1]:
+                      - generic [ref=f2e5]:
+                        - generic [ref=f2e6]: Email
+                        - textbox "Enter email" [active] [ref=f2e7]: haritha@gmail.com
+                      - insertion [ref=f2e9]:
+                        - generic [ref=f2e12]:
+                          - heading "These are topics related to the article that might interest you" [level=2] [ref=f2e14]: Discover more
+                          - link "Development Tools" [ref=f2e15] [cursor=pointer]:
+                            - generic "Development Tools" [ref=f2e16]
+                            - img [ref=f2e18]
+                          - link "Selenium Webdriver Training" [ref=f2e20] [cursor=pointer]:
+                            - generic "Selenium Webdriver Training" [ref=f2e21]
+                            - img [ref=f2e23]
+                - insertion [ref=f1e18]:
+                  - generic [ref=f1e21]:
+                    - heading "These are topics related to the article that might interest you" [level=2] [ref=f1e23]: Discover more
+                    - link "Web Browsers" [ref=f1e24] [cursor=pointer]:
+                      - generic "Web Browsers" [ref=f1e25]
+                      - img [ref=f1e27]
+                    - link "Learning Platform Access" [ref=f1e29] [cursor=pointer]:
+                      - generic "Learning Platform Access" [ref=f1e30]
+                      - img [ref=f1e32]
+                    - link "Automation Strategy Consulting" [ref=f1e34] [cursor=pointer]:
+                      - generic "Automation Strategy Consulting" [ref=f1e35]
+                      - img [ref=f1e37]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - img [ref=e55]
+              - heading "Learning Points" [level=3] [ref=e58]
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - img [ref=e61]
+                - generic [ref=e64]: Target Locator
+              - listitem [ref=e65]:
+                - img [ref=e66]
+                - generic [ref=e69]: switchTo()
+              - listitem [ref=e70]:
+                - img [ref=e71]
+                - generic [ref=e74]: defaultContent()
+              - listitem [ref=e75]:
+                - img [ref=e76]
+                - generic [ref=e79]: parentFrame()
+              - listitem [ref=e80]:
+                - img [ref=e81]
+                - generic [ref=e84]: Overloading concept - JAVA
+            - generic [ref=e85]:
+              - link "Watch Tutorial" [ref=e86] [cursor=pointer]:
+                - /url: /video/frame
+                - img [ref=e87]
+                - generic [ref=e89]: Watch Tutorial
+              - generic [ref=e90]:
+                - text: "Practice ID:"
+                - code [ref=e91]: frame
+          - generic [ref=e92]:
+            - generic:
+              - generic:
+                - insertion
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e93]:
+      - generic [ref=e94]:
+        - paragraph [ref=e95]:
+          - text: © 2026 LetCode ·
+          - link "Koushik Chatterjee" [ref=e96] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Yaswanth" [ref=e97] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+        - generic [ref=e98]:
+          - link "GitHub" [ref=e99] [cursor=pointer]:
+            - /url: https://github.com/ortoniKC
+            - img [ref=e100]
+          - link "YouTube" [ref=e103] [cursor=pointer]:
+            - /url: https://www.youtube.com/@letcode
+            - img [ref=e104]
+          - link "LinkedIn" [ref=e107] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+            - img [ref=e108]
+          - link "Contact" [ref=e113] [cursor=pointer]:
+            - /url: /contact
+          - link "🍕 Support" [ref=e114] [cursor=pointer]:
+            - /url: https://buymeacoffee.com/letcode
+  - insertion [ref=e115]:
+    - iframe [ref=e118]:
+      - generic [active] [ref=f8e1]:
+        - generic [ref=f8e6]:
+          - link [ref=f8e8] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CPNuFqVQ-ao75N9WumsMPteSS8QmuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQmpAgq_Gr6Hv0Y-qAMByAPLBKoE8AFP0Ngm4FVLrnvsSU7Ch_b16ytu7IKLGvlOiCFz5ibOemnqAF9RGrjxUmj5sYngWqzudTKDtN-pymOW9_K-E6K9txURIkY7wku8GSmMEcg5WHCwXOYjiUY3KjhzGBu0WdlcsmpXKCzVXRzQ8nSxQa_r4Y-hGFiez-ugVj7MNCrm-i8dvfUSxeXtGdiUaIngMfOnvo_JjF-IO7RTmOFe8s4bvNhU-JlLqiEwiaC1h1w_Eg2RtILLS_0jrBwgNkM1xEL6HFo8Zg3KxbrryM4HDRoB6LJaoUXFdWRlE5cCwpe6h6cUpGiQbGKRsjKaC5KjO8_ABJD6pvjpBYgFvZSh7FegBi6AB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljzzfa62aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAYAMAaIMRSoKCgiO37ECleKxAmIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCPH79rrZpJUDFVWXZgIdNbIknvANAogOCbAOgPDa7xi4E-QD2BML0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBUGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE&num=1&cid=CAQShwIAEQoqgX4xxzkezsCYZjWM9ui_OneobLDBYiDvkeR1suu-xr8wdf3eiWSH4uiz-uyefJ2FBcwnJYuvE8b0b_McDEqJR4aQ82bJHuXoKhzi3rz-pdZZZkOPDF6is7QgxkhxJxu2R5CprVX9twSMXLOWslYe-OleGqYz9zwauc7Di9k4eMTYNyzErhF0MNLeqUzSJzqauXfEE9e72B3ZQGCI9zqwSIrvrqAnJ-6eMmL43s0LjQgADHB_votbcpdTEWIY3O8gXVSFzGI53JATED2PJrVEauZPCzciqwZqR9AvF_Y14bRIGn-YUc-AMouzU_14kU0Yx_dnbhDXa4IUeDqfn74nnhwDTBgB&sig=AOD64_0yZ8aesgD0yGAZ8vSteyuCoEqZMw&client=ca-pub-6251538267574677&rf=1&nb=9&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE
+            - img [ref=f8e9]
+          - link "Coursera" [ref=f8e11] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CPNuFqVQ-ao75N9WumsMPteSS8QmuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQmpAgq_Gr6Hv0Y-qAMByAPLBKoE8AFP0Ngm4FVLrnvsSU7Ch_b16ytu7IKLGvlOiCFz5ibOemnqAF9RGrjxUmj5sYngWqzudTKDtN-pymOW9_K-E6K9txURIkY7wku8GSmMEcg5WHCwXOYjiUY3KjhzGBu0WdlcsmpXKCzVXRzQ8nSxQa_r4Y-hGFiez-ugVj7MNCrm-i8dvfUSxeXtGdiUaIngMfOnvo_JjF-IO7RTmOFe8s4bvNhU-JlLqiEwiaC1h1w_Eg2RtILLS_0jrBwgNkM1xEL6HFo8Zg3KxbrryM4HDRoB6LJaoUXFdWRlE5cCwpe6h6cUpGiQbGKRsjKaC5KjO8_ABJD6pvjpBYgFvZSh7FegBi6AB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljzzfa62aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAYAMAaIMRSoKCgiO37ECleKxAmIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCPH79rrZpJUDFVWXZgIdNbIknvANAogOCbAOgPDa7xi4E-QD2BML0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBUGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE&num=1&cid=CAQShwIAEQoqgX4xxzkezsCYZjWM9ui_OneobLDBYiDvkeR1suu-xr8wdf3eiWSH4uiz-uyefJ2FBcwnJYuvE8b0b_McDEqJR4aQ82bJHuXoKhzi3rz-pdZZZkOPDF6is7QgxkhxJxu2R5CprVX9twSMXLOWslYe-OleGqYz9zwauc7Di9k4eMTYNyzErhF0MNLeqUzSJzqauXfEE9e72B3ZQGCI9zqwSIrvrqAnJ-6eMmL43s0LjQgADHB_votbcpdTEWIY3O8gXVSFzGI53JATED2PJrVEauZPCzciqwZqR9AvF_Y14bRIGn-YUc-AMouzU_14kU0Yx_dnbhDXa4IUeDqfn74nnhwDTBgB&sig=AOD64_0yZ8aesgD0yGAZ8vSteyuCoEqZMw&client=ca-pub-6251538267574677&rf=1&nb=19&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE
+            - img "Coursera" [ref=f8e12]
+          - generic [ref=f8e13]:
+            - generic "Coursera" [ref=f8e14]:
+              - link "Coursera" [ref=f8e15] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CPNuFqVQ-ao75N9WumsMPteSS8QmuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQmpAgq_Gr6Hv0Y-qAMByAPLBKoE8AFP0Ngm4FVLrnvsSU7Ch_b16ytu7IKLGvlOiCFz5ibOemnqAF9RGrjxUmj5sYngWqzudTKDtN-pymOW9_K-E6K9txURIkY7wku8GSmMEcg5WHCwXOYjiUY3KjhzGBu0WdlcsmpXKCzVXRzQ8nSxQa_r4Y-hGFiez-ugVj7MNCrm-i8dvfUSxeXtGdiUaIngMfOnvo_JjF-IO7RTmOFe8s4bvNhU-JlLqiEwiaC1h1w_Eg2RtILLS_0jrBwgNkM1xEL6HFo8Zg3KxbrryM4HDRoB6LJaoUXFdWRlE5cCwpe6h6cUpGiQbGKRsjKaC5KjO8_ABJD6pvjpBYgFvZSh7FegBi6AB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljzzfa62aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAYAMAaIMRSoKCgiO37ECleKxAmIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCPH79rrZpJUDFVWXZgIdNbIknvANAogOCbAOgPDa7xi4E-QD2BML0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBUGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE&num=1&cid=CAQShwIAEQoqgX4xxzkezsCYZjWM9ui_OneobLDBYiDvkeR1suu-xr8wdf3eiWSH4uiz-uyefJ2FBcwnJYuvE8b0b_McDEqJR4aQ82bJHuXoKhzi3rz-pdZZZkOPDF6is7QgxkhxJxu2R5CprVX9twSMXLOWslYe-OleGqYz9zwauc7Di9k4eMTYNyzErhF0MNLeqUzSJzqauXfEE9e72B3ZQGCI9zqwSIrvrqAnJ-6eMmL43s0LjQgADHB_votbcpdTEWIY3O8gXVSFzGI53JATED2PJrVEauZPCzciqwZqR9AvF_Y14bRIGn-YUc-AMouzU_14kU0Yx_dnbhDXa4IUeDqfn74nnhwDTBgB&sig=AOD64_0yZ8aesgD0yGAZ8vSteyuCoEqZMw&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE
+            - generic "Coursera" [ref=f8e16]:
+              - link "New Google AI Certificate" [ref=f8e17] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CPNuFqVQ-ao75N9WumsMPteSS8QmuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQmpAgq_Gr6Hv0Y-qAMByAPLBKoE8AFP0Ngm4FVLrnvsSU7Ch_b16ytu7IKLGvlOiCFz5ibOemnqAF9RGrjxUmj5sYngWqzudTKDtN-pymOW9_K-E6K9txURIkY7wku8GSmMEcg5WHCwXOYjiUY3KjhzGBu0WdlcsmpXKCzVXRzQ8nSxQa_r4Y-hGFiez-ugVj7MNCrm-i8dvfUSxeXtGdiUaIngMfOnvo_JjF-IO7RTmOFe8s4bvNhU-JlLqiEwiaC1h1w_Eg2RtILLS_0jrBwgNkM1xEL6HFo8Zg3KxbrryM4HDRoB6LJaoUXFdWRlE5cCwpe6h6cUpGiQbGKRsjKaC5KjO8_ABJD6pvjpBYgFvZSh7FegBi6AB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljzzfa62aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAYAMAaIMRSoKCgiO37ECleKxAmIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCPH79rrZpJUDFVWXZgIdNbIknvANAogOCbAOgPDa7xi4E-QD2BML0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBUGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE&num=1&cid=CAQShwIAEQoqgX4xxzkezsCYZjWM9ui_OneobLDBYiDvkeR1suu-xr8wdf3eiWSH4uiz-uyefJ2FBcwnJYuvE8b0b_McDEqJR4aQ82bJHuXoKhzi3rz-pdZZZkOPDF6is7QgxkhxJxu2R5CprVX9twSMXLOWslYe-OleGqYz9zwauc7Di9k4eMTYNyzErhF0MNLeqUzSJzqauXfEE9e72B3ZQGCI9zqwSIrvrqAnJ-6eMmL43s0LjQgADHB_votbcpdTEWIY3O8gXVSFzGI53JATED2PJrVEauZPCzciqwZqR9AvF_Y14bRIGn-YUc-AMouzU_14kU0Yx_dnbhDXa4IUeDqfn74nnhwDTBgB&sig=AOD64_0yZ8aesgD0yGAZ8vSteyuCoEqZMw&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE
+                - text: New Google AI
+                - text: Certificate
+            - generic "Coursera" [ref=f8e18]:
+              - link "Enroll in the new Google AI Professional Certificate today." [ref=f8e19] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CPNuFqVQ-ao75N9WumsMPteSS8QmuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQmpAgq_Gr6Hv0Y-qAMByAPLBKoE8AFP0Ngm4FVLrnvsSU7Ch_b16ytu7IKLGvlOiCFz5ibOemnqAF9RGrjxUmj5sYngWqzudTKDtN-pymOW9_K-E6K9txURIkY7wku8GSmMEcg5WHCwXOYjiUY3KjhzGBu0WdlcsmpXKCzVXRzQ8nSxQa_r4Y-hGFiez-ugVj7MNCrm-i8dvfUSxeXtGdiUaIngMfOnvo_JjF-IO7RTmOFe8s4bvNhU-JlLqiEwiaC1h1w_Eg2RtILLS_0jrBwgNkM1xEL6HFo8Zg3KxbrryM4HDRoB6LJaoUXFdWRlE5cCwpe6h6cUpGiQbGKRsjKaC5KjO8_ABJD6pvjpBYgFvZSh7FegBi6AB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljzzfa62aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAYAMAaIMRSoKCgiO37ECleKxAmIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCPH79rrZpJUDFVWXZgIdNbIknvANAogOCbAOgPDa7xi4E-QD2BML0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBUGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE&num=1&cid=CAQShwIAEQoqgX4xxzkezsCYZjWM9ui_OneobLDBYiDvkeR1suu-xr8wdf3eiWSH4uiz-uyefJ2FBcwnJYuvE8b0b_McDEqJR4aQ82bJHuXoKhzi3rz-pdZZZkOPDF6is7QgxkhxJxu2R5CprVX9twSMXLOWslYe-OleGqYz9zwauc7Di9k4eMTYNyzErhF0MNLeqUzSJzqauXfEE9e72B3ZQGCI9zqwSIrvrqAnJ-6eMmL43s0LjQgADHB_votbcpdTEWIY3O8gXVSFzGI53JATED2PJrVEauZPCzciqwZqR9AvF_Y14bRIGn-YUc-AMouzU_14kU0Yx_dnbhDXa4IUeDqfn74nnhwDTBgB&sig=AOD64_0yZ8aesgD0yGAZ8vSteyuCoEqZMw&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE
+                - text: Enroll in the new Google AI
+                - text: Professional Certificate today.
+          - link "Learn More" [ref=f8e22] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CPNuFqVQ-ao75N9WumsMPteSS8QmuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQmpAgq_Gr6Hv0Y-qAMByAPLBKoE8AFP0Ngm4FVLrnvsSU7Ch_b16ytu7IKLGvlOiCFz5ibOemnqAF9RGrjxUmj5sYngWqzudTKDtN-pymOW9_K-E6K9txURIkY7wku8GSmMEcg5WHCwXOYjiUY3KjhzGBu0WdlcsmpXKCzVXRzQ8nSxQa_r4Y-hGFiez-ugVj7MNCrm-i8dvfUSxeXtGdiUaIngMfOnvo_JjF-IO7RTmOFe8s4bvNhU-JlLqiEwiaC1h1w_Eg2RtILLS_0jrBwgNkM1xEL6HFo8Zg3KxbrryM4HDRoB6LJaoUXFdWRlE5cCwpe6h6cUpGiQbGKRsjKaC5KjO8_ABJD6pvjpBYgFvZSh7FegBi6AB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljzzfa62aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAYAMAaIMRSoKCgiO37ECleKxAmIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCPH79rrZpJUDFVWXZgIdNbIknvANAogOCbAOgPDa7xi4E-QD2BML0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBUGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE&num=1&cid=CAQShwIAEQoqgX4xxzkezsCYZjWM9ui_OneobLDBYiDvkeR1suu-xr8wdf3eiWSH4uiz-uyefJ2FBcwnJYuvE8b0b_McDEqJR4aQ82bJHuXoKhzi3rz-pdZZZkOPDF6is7QgxkhxJxu2R5CprVX9twSMXLOWslYe-OleGqYz9zwauc7Di9k4eMTYNyzErhF0MNLeqUzSJzqauXfEE9e72B3ZQGCI9zqwSIrvrqAnJ-6eMmL43s0LjQgADHB_votbcpdTEWIY3O8gXVSFzGI53JATED2PJrVEauZPCzciqwZqR9AvF_Y14bRIGn-YUc-AMouzU_14kU0Yx_dnbhDXa4IUeDqfn74nnhwDTBgB&sig=AOD64_0yZ8aesgD0yGAZ8vSteyuCoEqZMw&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIzvH2utmklQMVVZdmAh01siSeEAEYASAAEgJRe_D_BwE
+            - generic [ref=f8e23]: Learn More
+        - img [ref=f8e27] [cursor=pointer]
+        - button [ref=f8e29] [cursor=pointer]:
+          - img [ref=f8e30]
+        - iframe
+  - insertion [ref=e121]:
+    - iframe [ref=e123]:
+      - generic [active] [ref=f10e1]:
+        - generic [ref=f10e6]:
+          - generic [ref=f10e7]:
+            - generic "Coursera" [ref=f10e9]:
+              - link "New Google AI Certificate" [ref=f10e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEfzUq1Q-avfLKp7KmsMPjsGYgAGuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQGpAgq_Gr6Hv0Y-qAMByAPLBKoE6gFP0LZN_4nfxhnfMB8R3r3BA1-t1SatRVHjr86nTDsWTkAssTcP_V-avHoo6d6sifYihOkCRM05RsBxjvKxQa_A9twF-Zugxr0KFpWdPi-MFfnc50GrRsiCZYVLk6V9ozMx5BktqJ-FFcd6QHSBS2_F4FSqD_M1MzLHXkYkWtsr066_a_m5RQq8sXfaQTpGgaD1RzoIMvNORFTI9Mg_JnowlGnmErjRGqKIWDWg5bwrXA0-NRFQx7s8Ybk3joWI5NoP6RrHkjsy8xrI6BFuX2-HjsNwMPEqBO1x2q1E73wGq1GwE10jjnKXJsnABJD6pvjpBYgFvZSh7FeAB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOliEtOO72aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAaIMOWIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCL7U47vZpJUDFR6lZgIdjiAGEPANAogOCbAOgPDa7xjYEwvQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICgFQYASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE&num=1&cid=CAQS8wEAEQoqgbB-jYPXxdv5Pp9BSubSEFjM4NNRoF0MWph9ssvYu_TnOQF5J_MyeuNYoMM8u-xz8HYPZZK9ZnGg_sqdnCQdDcngx0jH5kw7p7hRc37NfWckQe-KAVNSQiAz_cvKnxVRZf_hJfeu22o1-OB5LPLvN7fYjyN14rok2Wyj1vT_p3333FhCYjjRdXydvwahccc74S3BmKgQsC4hbs0qHF7GZ1gs3sSVeckjvwQOzvQx0pGdufJP5BJav-Fxt7kETzR6Rx9kCppUD2kSPZ_R4X9d1nekLe4M9lZudCOsj340KAGLqNV7UJU1ZuFXtwi8ckkYAQ&sig=AOD64_2riQRvyhWpZQrJVG6HjPBNLTpWSw&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE
+            - generic [ref=f10e11]:
+              - link "Enroll in the new Google AI Professional Certificate today." [ref=f10e13] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEfzUq1Q-avfLKp7KmsMPjsGYgAGuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQGpAgq_Gr6Hv0Y-qAMByAPLBKoE6gFP0LZN_4nfxhnfMB8R3r3BA1-t1SatRVHjr86nTDsWTkAssTcP_V-avHoo6d6sifYihOkCRM05RsBxjvKxQa_A9twF-Zugxr0KFpWdPi-MFfnc50GrRsiCZYVLk6V9ozMx5BktqJ-FFcd6QHSBS2_F4FSqD_M1MzLHXkYkWtsr066_a_m5RQq8sXfaQTpGgaD1RzoIMvNORFTI9Mg_JnowlGnmErjRGqKIWDWg5bwrXA0-NRFQx7s8Ybk3joWI5NoP6RrHkjsy8xrI6BFuX2-HjsNwMPEqBO1x2q1E73wGq1GwE10jjnKXJsnABJD6pvjpBYgFvZSh7FeAB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOliEtOO72aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAaIMOWIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCL7U47vZpJUDFR6lZgIdjiAGEPANAogOCbAOgPDa7xjYEwvQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICgFQYASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE&num=1&cid=CAQS8wEAEQoqgbB-jYPXxdv5Pp9BSubSEFjM4NNRoF0MWph9ssvYu_TnOQF5J_MyeuNYoMM8u-xz8HYPZZK9ZnGg_sqdnCQdDcngx0jH5kw7p7hRc37NfWckQe-KAVNSQiAz_cvKnxVRZf_hJfeu22o1-OB5LPLvN7fYjyN14rok2Wyj1vT_p3333FhCYjjRdXydvwahccc74S3BmKgQsC4hbs0qHF7GZ1gs3sSVeckjvwQOzvQx0pGdufJP5BJav-Fxt7kETzR6Rx9kCppUD2kSPZ_R4X9d1nekLe4M9lZudCOsj340KAGLqNV7UJU1ZuFXtwi8ckkYAQ&sig=AOD64_2riQRvyhWpZQrJVG6HjPBNLTpWSw&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE
+              - link [ref=f10e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEfzUq1Q-avfLKp7KmsMPjsGYgAGuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQGpAgq_Gr6Hv0Y-qAMByAPLBKoE6gFP0LZN_4nfxhnfMB8R3r3BA1-t1SatRVHjr86nTDsWTkAssTcP_V-avHoo6d6sifYihOkCRM05RsBxjvKxQa_A9twF-Zugxr0KFpWdPi-MFfnc50GrRsiCZYVLk6V9ozMx5BktqJ-FFcd6QHSBS2_F4FSqD_M1MzLHXkYkWtsr066_a_m5RQq8sXfaQTpGgaD1RzoIMvNORFTI9Mg_JnowlGnmErjRGqKIWDWg5bwrXA0-NRFQx7s8Ybk3joWI5NoP6RrHkjsy8xrI6BFuX2-HjsNwMPEqBO1x2q1E73wGq1GwE10jjnKXJsnABJD6pvjpBYgFvZSh7FeAB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOliEtOO72aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAaIMOWIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCL7U47vZpJUDFR6lZgIdjiAGEPANAogOCbAOgPDa7xjYEwvQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICgFQYASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE&num=1&cid=CAQS8wEAEQoqgbB-jYPXxdv5Pp9BSubSEFjM4NNRoF0MWph9ssvYu_TnOQF5J_MyeuNYoMM8u-xz8HYPZZK9ZnGg_sqdnCQdDcngx0jH5kw7p7hRc37NfWckQe-KAVNSQiAz_cvKnxVRZf_hJfeu22o1-OB5LPLvN7fYjyN14rok2Wyj1vT_p3333FhCYjjRdXydvwahccc74S3BmKgQsC4hbs0qHF7GZ1gs3sSVeckjvwQOzvQx0pGdufJP5BJav-Fxt7kETzR6Rx9kCppUD2kSPZ_R4X9d1nekLe4M9lZudCOsj340KAGLqNV7UJU1ZuFXtwi8ckkYAQ&sig=AOD64_2riQRvyhWpZQrJVG6HjPBNLTpWSw&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE
+                - img [ref=f10e15]
+          - generic "Coursera" [ref=f10e17]:
+            - link "Coursera" [ref=f10e18] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEfzUq1Q-avfLKp7KmsMPjsGYgAGuiM26hQGimrPGxBWLpdSdhyoQASDTkZYiYOWa6IPYDqABpr-pugPIAQGpAgq_Gr6Hv0Y-qAMByAPLBKoE6gFP0LZN_4nfxhnfMB8R3r3BA1-t1SatRVHjr86nTDsWTkAssTcP_V-avHoo6d6sifYihOkCRM05RsBxjvKxQa_A9twF-Zugxr0KFpWdPi-MFfnc50GrRsiCZYVLk6V9ozMx5BktqJ-FFcd6QHSBS2_F4FSqD_M1MzLHXkYkWtsr066_a_m5RQq8sXfaQTpGgaD1RzoIMvNORFTI9Mg_JnowlGnmErjRGqKIWDWg5bwrXA0-NRFQx7s8Ybk3joWI5NoP6RrHkjsy8xrI6BFuX2-HjsNwMPEqBO1x2q1E73wGq1GwE10jjnKXJsnABJD6pvjpBYgFvZSh7FeAB9Hd0vYCqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOliEtOO72aSVA2ABsQm-MMuzxWtiX4AKAZgLAcgLAaIMOWIXChVvcmcuY291cnNlcmEuY291cnNlcmFqFgoUb3JnLmNvdXJzZXJhLmFuZHJvaWR4AYgBAZABAaoNAklOyA0B6g0TCL7U47vZpJUDFR6lZgIdjiAGEPANAogOCbAOgPDa7xjYEwvQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICgFQYASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE&num=1&cid=CAQS8wEAEQoqgbB-jYPXxdv5Pp9BSubSEFjM4NNRoF0MWph9ssvYu_TnOQF5J_MyeuNYoMM8u-xz8HYPZZK9ZnGg_sqdnCQdDcngx0jH5kw7p7hRc37NfWckQe-KAVNSQiAz_cvKnxVRZf_hJfeu22o1-OB5LPLvN7fYjyN14rok2Wyj1vT_p3333FhCYjjRdXydvwahccc74S3BmKgQsC4hbs0qHF7GZ1gs3sSVeckjvwQOzvQx0pGdufJP5BJav-Fxt7kETzR6Rx9kCppUD2kSPZ_R4X9d1nekLe4M9lZudCOsj340KAGLqNV7UJU1ZuFXtwi8ckkYAQ&sig=AOD64_2riQRvyhWpZQrJVG6HjPBNLTpWSw&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://www.coursera.org/professional-certificates/google-ai%3Futm_medium%3Dsem%26utm_source%3Dgg%26utm_campaign%3Db2c_india_google-ai_google_ftcof_professional-certificates_cx_dr_bau_gg_pmax_pr_in_all_m_hyb_26-02_desktop%26campaignid%3D23575536696%26adgroupid%3D%26device%3Dc%26keyword%3D%26matchtype%3D%26network%3Dx%26devicemodel%3D%26creativeid%3D%26assetgroupid%3D6676723712%26targetid%3D%26extensionid%3D%26placement%3D%26gad_source%3D5%26gad_campaignid%3D23580920381%26gclid%3DEAIaIQobChMIt83ju9mklQMVHqVmAh2OIAYQEAEYASAAEgLp3vD_BwE
+        - img [ref=f10e22] [cursor=pointer]
+        - button [ref=f10e24] [cursor=pointer]:
+          - img [ref=f10e25]
+        - iframe
+```

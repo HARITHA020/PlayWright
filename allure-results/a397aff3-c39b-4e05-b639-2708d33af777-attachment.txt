@@ -1,0 +1,20 @@
+the url: https://www.testmuai.com/selenium-playground/simple-form-demo/
+the title: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8876,
+  [Symbol(trigger_async_id_symbol)]: 1311,
+  [Symbol(kResourceStore)]: undefined
+}
+the num 1 value: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 10472,
+  [Symbol(trigger_async_id_symbol)]: 8937,
+  [Symbol(kResourceStore)]: undefined
+}
+the num 2 value: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 11811,
+  [Symbol(trigger_async_id_symbol)]: 10533,
+  [Symbol(kResourceStore)]: undefined
+}
+the reuslt is: 

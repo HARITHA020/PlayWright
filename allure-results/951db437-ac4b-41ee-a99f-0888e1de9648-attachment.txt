@@ -1,0 +1,15 @@
+the url: https://www.testmuai.com/selenium-playground/simple-form-demo/
+the title: Selenium Grid Online | Run Selenium Test On Cloud
+the num 1 value: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8116,
+  [Symbol(trigger_async_id_symbol)]: 6988,
+  [Symbol(kResourceStore)]: undefined
+}
+the num 2 value: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 9596,
+  [Symbol(trigger_async_id_symbol)]: 8177,
+  [Symbol(kResourceStore)]: undefined
+}
+the reuslt is: 

@@ -1,0 +1,3 @@
+first  widow url: https://demoqa.com/browser-windows
+the new window url: https://demoqa.com/sample
+heading: This is a sample page

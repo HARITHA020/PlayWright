@@ -1,0 +1,2 @@
+Press a button!
+The message is: You pressed OK!

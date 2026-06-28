@@ -1,0 +1,2 @@
+the before text: 
+after test: locator('#message')

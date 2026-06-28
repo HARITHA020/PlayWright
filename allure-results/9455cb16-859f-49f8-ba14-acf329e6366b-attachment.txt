@@ -1,0 +1,20 @@
+the url: https://www.testmuai.com/selenium-playground/simple-form-demo/
+the title: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6234,
+  [Symbol(trigger_async_id_symbol)]: 1301,
+  [Symbol(kResourceStore)]: undefined
+}
+the num 1 value: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 9487,
+  [Symbol(trigger_async_id_symbol)]: 6295,
+  [Symbol(kResourceStore)]: undefined
+}
+the num 2 value: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 13730,
+  [Symbol(trigger_async_id_symbol)]: 9548,
+  [Symbol(kResourceStore)]: undefined
+}
+the reuslt is: Entered value is not a number
